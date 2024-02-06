@@ -1,0 +1,121 @@
+/* Section 1 : Header */
+*{
+    margin:0%;
+    padding:0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1 rem;
+}
+nav h1{
+    font-size: 2.3rem;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 1.9rem;
+    margin: 0.1rem;
+}
+
+video{
+    width:100%;
+}
+
+
+
+/* Section 2 : Hero */
+#hero{
+    height:100vh;
+    position:relative;
+}
+#hero h1{
+    position:absolute;
+    z-index:1;
+    color:white;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding:1rem;
+}
+#about{
+    height:100vh;
+    display: flex;
+    margin-top: 10rem;
+}
+#about .left{
+    width:50%;
+    border-radius: 0.8rem;
+}
+#about .left img{
+    width:50%;
+    border-radius:0.8rem;
+}
+#about .left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about .right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#service{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+}
+#service h1{
+    text-align: center;
+}
+#service .lower{
+    display: flex; 
+   justify-content: space-evenly; 
+}
+.card{
+    width: 20rem;
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+#contact{
+    /* display: flex; */
+    height:50vh;
+    /* flex-direction: column; */
+}
+#contact .right h1{
+    text-align: center;
+}
+#contact .right{
+    display: flex;
+   flex-direction: column;
+   align-items: end;
+}
+#contact .right form input{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding: 1rem;
+}
+#contact .right form textarea{
+    display: flex;
+    flex-direction: column;
+     margin:1rem; 
+     padding: 1rem;
+}
